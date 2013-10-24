@@ -1,0 +1,29 @@
+{
+  "name": "package",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Emeric Florence <emeric@minimal.be>",
+  "description": "FLU is an multi-user interactive installation, where the spectators' mobile devices are used as tactile controllers to interact in realtime with the visualization.",
+  "contributors": [
+    {
+      "name": "Ryan Ong",
+      "email": "ryanong@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node ./FLU.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boblemarin/FLU.git"
+  },
+  "dependencies" : {
+    "socket.io"   :  "*"
+  },
+  "analyze": false,
+  "license": "CC BY-NC-SA 3.0",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
+
